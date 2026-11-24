@@ -1,0 +1,22 @@
+# 인증·접속 정보
+.env
+*.key
+*.pem
+secrets.*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / 편집기
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# 대용량 산출물 (Releases 또는 외부 링크 사용 — CONTRIBUTING.md 참고)
+*.zip
+*.7z
+*.pth
+*.ckpt
