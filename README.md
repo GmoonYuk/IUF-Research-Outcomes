@@ -13,6 +13,7 @@
 | 강수 예측 | **KlimaX10m** | ClimaX 기반 AI 초단기 강수 예측 (10분 간격, 최대 +3시간) | [models/KlimaX10m](models/KlimaX10m) |
 | 침수 예측 | **HI_model** | 강우 시계열로 침수심 격자를 즉시 추론하는 AI 대리모형 | [models/HI_model](models/HI_model) |
 | 침수 해석 | **HC-SURF** | 물리 기반 2차원 지표면 침수 해석 모형 | [models/HC-SURF](models/HC-SURF) |
+| (작성 예정) | **HD** | 담당 기관에서 작성 예정 | [models/HD](models/HD) |
 | 피해 평가 | **HP** | 건물·도로 직접 피해 및 행정동별 회복력(4R) 평가 | [models/HP](models/HP) |
 | 피해 평가 | **util_loss** | 산업 영업정지·정체에 따른 간접 피해액 산정 | [models/util_loss](models/util_loss) |
 
@@ -48,6 +49,7 @@ flowchart LR
     ├── KlimaX10m/       ← 모형별 폴더 (담당 기관이 관리)
     ├── HI_model/
     ├── HC-SURF/
+    ├── HD/
     ├── HP/
     └── util_loss/
 ```
