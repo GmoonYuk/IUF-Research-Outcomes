@@ -45,13 +45,15 @@ flowchart LR
 .
 ├── README.md            ← 이 문서
 ├── CONTRIBUTING.md      ← 기관별 자료 올리는 방법
-└── models/
-    ├── KlimaX10m/       ← 모형별 폴더 (담당 기관이 관리)
-    ├── HI_model/
-    ├── HC-SURF/
-    ├── HD/
-    ├── HP/
-    └── util_loss/
+├── models/
+│   ├── KlimaX10m/       ← 모형별 폴더 (담당 기관이 관리)
+│   ├── HI_model/
+│   ├── HC-SURF/
+│   ├── HD/
+│   ├── HP/
+│   └── util_loss/
+└── system/
+    └── MeS/             ← 시스템별 폴더 (담당 기관이 관리)
 ```
 
 ## 자료를 올리려는 기관께
