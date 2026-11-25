@@ -52,8 +52,7 @@ flowchart LR
 │   ├── HD/
 │   ├── HP/
 │   └── util_loss/
-└── systems/
-    └── MeS/             ← 시스템별 폴더 (담당 기관이 관리)
+└── systems/             ← 시스템별 폴더
 ```
 
 ## 자료를 올리려는 기관께
